@@ -7,7 +7,7 @@
 Name:		%{fontname}-fonts
 Summary: 	Georgian Unicode fonts
 Version:	%{common_ver}
-Release:	2%{?dist}
+Release:	3%{?dist}
 # Font exception
 # See: http://groups.google.com/group/bpg-fonts/web/gpl-gnu-license
 # No version of the GPL is specified.
@@ -548,6 +548,9 @@ rm -rf %{buildroot}
 %dir %{_fontdir}
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 20120413-3
+- Mass rebuild 2013-12-27
+
 * Thu Jan 31 2013 Tom Callaway <spot@fedoraproject.org> - 20120413-2
 - add missing docs
 
